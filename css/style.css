@@ -2,8 +2,8 @@
 *::after,
 *::before {
   box-sizing: border-box;
-  /* padding: 0;
-  margin: 0; */
+  padding: 0;
+  margin: 0;
 }
 
 @font-face {
@@ -91,6 +91,40 @@ a {
 
 .menu__list-link:hover {
   text-decoration: underline;
+}
+
+.header__phone {
+  padding-left: 40px;
+  position: relative;
+}
+
+.header__phone::before {
+  content: "";
+  position: absolute;
+  background-image: url("../images/phone-icon.svg");
+  height: 30px;
+  width: 30px;
+  left: 0;
+}
+
+.header__title {
+  padding-top: 152px;
+  text-align: center;
+  font-family: Balqis;
+  font-size: 250px;
+  font-weight: 300;
+  line-height: 334px;
+}
+
+.header__title span {
+  display: block;
+  text-align: right;
+  font-family: "RobotoCondensed-LightItalic";
+  font-size: 56px;
+  line-height: 65px;
+  margin-top: -65px;
+  margin-right: 85px;
+  letter-spacing: 7px;
 }
 
 /*
