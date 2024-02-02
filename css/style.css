@@ -60,6 +60,10 @@ a {
   padding: 0 15px;
 }
 
+.section {
+  margin: 200px 0;
+}
+
 .header {
   background-image: url("../images/header-bg.jpg");
   height: 100vh;
