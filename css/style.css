@@ -151,10 +151,25 @@ a {
   margin-left: 185px;
 }
 
-/*
+.fairy-tale__slider {
+  width: 50%;
+}
 
-.menu {
-  display: flex;
-  list-style: none;
-  gap: 50px;
-} */
+.slick-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 5;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.slick-prev {
+  left: 0;
+}
+
+.slick-next {
+  right: 0;
+}
