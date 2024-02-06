@@ -6,6 +6,10 @@
   margin: 0;
 }
 
+ul {
+  list-style: none;
+}
+
 @font-face {
   font-family: "Balqis";
   src: url("../fonts/Balqis.woff2") format("woff2"),
@@ -61,7 +65,8 @@ a {
 }
 
 .page-section {
-  margin: 200px 0;
+  margin: 200px auto;
+  max-width: 1920px;
 }
 
 .header {
@@ -172,4 +177,32 @@ a {
 
 .slick-next {
   right: 0;
+}
+
+.fairy-tale__inner {
+  position: relative;
+}
+
+.fairy-tale__container {
+  max-width: 1230px;
+  margin: 0 auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.fairy-tale__body {
+  width: 50%;
+  margin-left: auto;
+  padding-left: 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100%;
+}
+
+.fairy-tale__body-title {
+  font-family: "RobotoCondensed-Regular";
 }
