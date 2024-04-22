@@ -1,5 +1,5 @@
 $(function () {
-  $(".fairy-tale__slider").slick({
+  $(".fairy-tale__slider, .our-trip__slider").slick({
     prevArrow:
       '<button type="button" class="slick-btn slick-prev"><img src="images/arrow-prev.svg"/></button>',
     nextArrow:
