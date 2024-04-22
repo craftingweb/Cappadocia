@@ -6,6 +6,10 @@
   margin: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 ul {
   list-style: none;
 }
@@ -206,4 +210,11 @@ a {
 
 .fairy-tale__body-title {
   font-family: "RobotoCondensed-Regular";
+}
+
+.test {
+  height: 350px;
+  width: 500px;
+  object-fit: cover;
+  /* object-position: top; */
 }
