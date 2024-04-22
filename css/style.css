@@ -99,7 +99,8 @@ a {
 }
 
 .menu__list-link:hover {
-  text-decoration: underline;
+  text-decoration: underline 2px solid black;
+  text-underline-offset: 6px;
 }
 
 .header__phone {
