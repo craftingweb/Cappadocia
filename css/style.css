@@ -251,3 +251,30 @@ ul li:first-child {
   line-height: 28px;
   font-family: "RobotoCondensed-Light";
 }
+
+.hotel__title span {
+  margin-left: 120px;
+}
+
+.hotel__inner {
+  display: flex;
+}
+
+.hotel__images {
+  margin-right: 100px;
+}
+
+.hotel__text {
+  margin-bottom: 20px;
+}
+
+.hotel__gallery {
+  margin-top: 65px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.hotel__gallery a {
+  margin-top: 50px;
+}
