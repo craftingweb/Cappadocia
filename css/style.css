@@ -240,10 +240,11 @@ ul li:first-child {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  /* height: 100%; */
 }
 
 .our-trip__btn {
+  display: inline-block;
+  margin-top: 4px;
   padding: 11px 54px;
   border: 1px solid #e2ab3f;
   text-transform: uppercase;
@@ -277,4 +278,36 @@ ul li:first-child {
 
 .hotel__gallery a {
   margin-top: 50px;
+}
+
+.price__inner {
+  display: flex;
+}
+
+.price__off-title,
+.price__on-title {
+  font-size: 24px;
+  margin-bottom: 50px;
+  line-height: 28px;
+  font-family: "RobotoCondensed-Light";
+  font-weight: 700;
+}
+
+.price__on {
+  margin-right: 70px;
+  width: 530px;
+}
+
+.price__list-item {
+  margin-bottom: 20px;
+}
+
+.price {
+  background-image: url("../images/price-bg.png");
+  background-repeat: no-repeat;
+  background-position: center right;
+}
+
+.price__title span {
+  margin-left: 100px;
 }
