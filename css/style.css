@@ -461,3 +461,56 @@ ul li:first-child {
 .footer__social a {
   margin: 0 7px;
 }
+
+@media (max-width: 1240px) {
+  .header__title {
+    font-size: 180px;
+    line-height: 220px;
+    margin-top: 0;
+  }
+  .header__title span {
+    font-size: 40px;
+    margin-top: -55px;
+  }
+}
+
+@media (max-width: 778px) {
+  .header__title {
+    font-size: 106px;
+    margin-top: 0;
+  }
+  .header__title span {
+    font-size: 30px;
+    margin-top: -78px;
+  }
+  .header__phone::before {
+    height: 25px;
+    width: 25px;
+    background-size: cover;
+  }
+}
+
+@media (max-width: 600px) {
+  .header__top {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .menu {
+    width: 100%;
+    margin: 0 0 25px;
+    text-align: center;
+  }
+  .header__title span {
+    font-size: 15px;
+    margin-top: -100px;
+  }
+  .header__title {
+    font-size: 78px;
+  }
+}
+
+@media (max-width: 600px) {
+  .header__title span {
+    margin-right: 0;
+  }
+}
