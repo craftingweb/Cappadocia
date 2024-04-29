@@ -6,5 +6,13 @@ $(function () {
       '<button type="button" class="slick-btn slick-next"><img src="images/arrow-next.svg"/></button>',
     autoplay: true,
     fade: true,
+    responsive: [
+      {
+        breakpoint: 500,
+        settings: {
+          arrows: false,
+        },
+      },
+    ],
   });
 });

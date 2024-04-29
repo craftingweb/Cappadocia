@@ -118,7 +118,7 @@ a {
 }
 
 .header__title {
-  padding-top: 152px;
+  padding-top: 118px;
   text-align: center;
   font-family: Balqis;
   font-size: 250px;
@@ -473,6 +473,55 @@ ul li:first-child {
     margin-top: -55px;
   }
 }
+
+@media (max-width: 500px) {
+  .page-section {
+    margin: 50px 0;
+  }
+  /* .fairy-tale__container,
+  .our-trip__container {
+    position: static;
+  } */
+  .fairy-tale__slider {
+    width: 100%;
+  }
+  .fairy-tale__body {
+    display: none;
+  }
+  .fairy-tale__body-title,
+  .title {
+    text-align: center;
+  }
+  .fairy-tale__item img {
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  .title {
+    margin-bottom: 25px;
+    font-size: 60px;
+  }
+  .slick-btn {
+    display: none;
+  }
+}
+
+/* @media (max-width: 991px) {
+  .page-section {
+    margin: 100px 0;
+  }
+  .fairy-tale__container,
+  .our-trip__container {
+    position: static;
+  }
+  .fairy-tale__slider {
+    width: 100%;
+  }
+  .fairy-tale__body {
+    width: 100%;
+    padding-left: 0;
+  }
+} */
 
 @media (max-width: 778px) {
   .header__title {
