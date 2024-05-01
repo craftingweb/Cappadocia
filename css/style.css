@@ -46,6 +46,10 @@ ul {
   font-display: swap;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   color: #000;
   font-family: "RobotoCondensed-Light";
@@ -209,6 +213,10 @@ a {
   font-family: "RobotoCondensed-Regular";
 }
 
+.our-trip {
+  scroll-margin-top: 50px;
+}
+
 .our-trip__inner {
   position: relative;
 }
@@ -253,6 +261,10 @@ ul li:first-child {
   font-family: "RobotoCondensed-Light";
 }
 
+.hotel {
+  scroll-margin-top: 100px;
+}
+
 .hotel__title span {
   margin-left: 120px;
 }
@@ -278,6 +290,10 @@ ul li:first-child {
 
 .hotel__gallery a {
   margin-top: 50px;
+}
+
+.price {
+  scroll-margin-top: 75px;
 }
 
 .price__inner {
