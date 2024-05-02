@@ -490,55 +490,6 @@ ul li:first-child {
   }
 }
 
-@media (max-width: 500px) {
-  .page-section {
-    margin: 50px 0;
-  }
-  /* .fairy-tale__container,
-  .our-trip__container {
-    position: static;
-  } */
-  .fairy-tale__slider {
-    width: 100%;
-  }
-  .fairy-tale__body {
-    display: none;
-  }
-  .fairy-tale__body-title,
-  .title {
-    text-align: center;
-  }
-  .fairy-tale__item img {
-    height: 50vh;
-    width: 100%;
-    object-fit: cover;
-  }
-  .title {
-    margin-bottom: 25px;
-    font-size: 60px;
-  }
-  .slick-btn {
-    display: none;
-  }
-}
-
-/* @media (max-width: 991px) {
-  .page-section {
-    margin: 100px 0;
-  }
-  .fairy-tale__container,
-  .our-trip__container {
-    position: static;
-  }
-  .fairy-tale__slider {
-    width: 100%;
-  }
-  .fairy-tale__body {
-    width: 100%;
-    padding-left: 0;
-  }
-} */
-
 @media (max-width: 778px) {
   .header__title {
     font-size: 106px;
@@ -577,5 +528,75 @@ ul li:first-child {
 @media (max-width: 600px) {
   .header__title span {
     margin-right: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .page-section {
+    margin: 50px 0;
+  }
+  .fairy-tale__container,
+  .our-trip__container {
+    position: static;
+  }
+  .fairy-tale__slider {
+    width: 100%;
+  }
+  .fairy-tale__body {
+    display: none;
+  }
+  .fairy-tale__body-title,
+  .title {
+    text-align: center;
+  }
+  .fairy-tale__item img {
+    height: 50vh;
+    width: 100%;
+    object-fit: cover;
+  }
+  .title {
+    margin-bottom: 25px;
+    font-size: 60px;
+  }
+  .slick-btn {
+    display: none;
+  }
+  .our-trip__slider img {
+    display: none;
+  }
+  .our-trip__body {
+    width: 100%;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  .hotel__images {
+    display: none;
+  }
+  .hotel__gallery {
+    margin-top: 19px;
+    justify-content: center;
+  }
+  .price {
+    display: none;
+  }
+  .contacts__images {
+    display: none;
+  }
+  .contacts__inner {
+    justify-content: center;
+  }
+  .contacts__form {
+    max-width: 380px;
+    margin: 0 auto;
+    margin-left: 0;
+  }
+  .contacts__price {
+    margin-left: 0;
+  }
+  .footer__text {
+    display: none;
+  }
+  .footer__contacts {
+    margin: auto;
   }
 }
